@@ -1,0 +1,21 @@
+{
+  "name": "sample.p5",
+  "version": "0.1.0",
+  "description": "kamihubuki-js demo on p5.js",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm link ../",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "blackspotbear <blackspotbear@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "p5": "^0.10.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

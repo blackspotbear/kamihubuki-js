@@ -1,0 +1,20 @@
+{
+	"width": 640,
+	"height": 480,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		}
+	},
+	"globalScripts": [
+		"node_modules/kamihubuki-js/lib/index.js",
+		"node_modules/kamihubuki-js/package.json"
+	],
+	"environment": {
+		"sandbox-runtime": "2"
+	}
+}

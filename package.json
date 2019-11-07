@@ -1,0 +1,28 @@
+{
+  "name": "kamihubuki-js",
+  "version": "0.1.0",
+  "description": "Lightweight 2D confetti physics engine",
+  "private": true,
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
+    "build": "tsc",
+    "clean": "rimraf lib",
+    "doc": "typedoc --out ./doc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "blackspotbear <blackspotbear@users.noreply.github.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "package.json"
+  ],
+  "devDependencies": {
+    "rimraf": "^3.0.0",
+    "typedoc": "^0.15.0",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {}
+}
