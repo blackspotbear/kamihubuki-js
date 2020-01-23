@@ -17,8 +17,8 @@ npm install blackspotbear/kamihubuki-js
 １つの紙吹雪に対し、１つの `Confetti` インスタンスを生成します。 kamihubuki-js は描画機能を持ちません。紙吹雪の描画は別途実装する必要があります。詳細は sample ディレクトリのサンプルを参照ください。
 
 ```javascript
-// akashic-kamihubuki の導入。
-var kh = require('path/to/kamihubuki-js');
+// kamihubuki-js の導入。
+var kh = require('kamihubuki-js');
 
 // コンフェッティインスタンスの生成。
 var co = new kh.Confetti({
