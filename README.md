@@ -17,7 +17,7 @@ npm install blackspotbear/kamihubuki-js
 The following is a minimal example around createing and updating confetti.
 
 ```javascript
-var kh = require('path/to/kamihubuki-js');
+var kh = require('kamihubuki-js');
 
 // create a confetti instance.
 var co = new kh.Confetti({
