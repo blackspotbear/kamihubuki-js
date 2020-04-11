@@ -16,11 +16,11 @@
   "author": "blackspotbear <blackspotbear@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
-    "@akashic/akashic-cli-export-html": "~0.2.9",
-    "@akashic/akashic-cli-export-zip": "~0.3.5",
-    "@akashic/akashic-cli-scan": "~0.2.6",
+    "@akashic/akashic-cli-export-html": "^0.2.49",
+    "@akashic/akashic-cli-export-zip": "^0.3.27",
+    "@akashic/akashic-cli-scan": "^0.2.27",
     "@akashic/akashic-engine": "~2.4.11",
-    "@akashic/akashic-sandbox": "~0.13.55",
+    "@akashic/akashic-sandbox": "^0.13.69",
     "rimraf": "2.7.1",
     "typescript": "2.9.2"
   }

@@ -20,8 +20,8 @@
     "package.json"
   ],
   "devDependencies": {
-    "rimraf": "^3.0.0",
-    "typedoc": "^0.15.0",
+    "rimraf": "^3.0.2",
+    "typedoc": "^0.15.8",
     "typescript": "^3.6.4"
   },
   "dependencies": {}
